@@ -1,0 +1,7 @@
+{
+  "name": "docker-geo-tools",
+  "version": "0.0.1",
+  "description": "GDAL, tippecanoe, shp2pgsql",
+  "author": "Primoz Susa",
+  "license": "MIT"
+}
