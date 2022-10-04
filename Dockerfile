@@ -15,4 +15,5 @@ RUN apk add --no-cache sudo git g++ make libgcc libstdc++ sqlite-libs sqlite-dev
   && apk del git g++ make sqlite-dev
 
 FROM tippecanoe as tools
+WORKDIR /home
 RUN apk add postgis 
